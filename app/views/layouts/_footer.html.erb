@@ -1,0 +1,15 @@
+<footer class="footer">
+  <small>
+    <%= t(".pre") %>
+    <%= link_to "#{t :tuts}", "http://www.railstutorial.org" %>
+    <%= t(".sub") %>
+    <%= link_to "#{t :author}", "http://www.michaelhartl.com" %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t(".about").to_s, about_path %></li>
+      <li><%= link_to t(".contact").to_s, contact_path %></li>
+      <li><%= link_to t(".new").to_s, "http://news.railstutorial.org" %></li>
+    </ul>
+  </nav>
+</footer>

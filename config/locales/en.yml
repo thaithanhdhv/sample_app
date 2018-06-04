@@ -2,9 +2,10 @@ en:
   app_name: "Sample App"
   sub_title: "Ruby on Rails Tutorial Sample App"
   tuts: "Ruby on Rails Tutorial"
+  author: "Michael Hartl"
   static_pages:
     home:
-      title: "Home"
+      title: "Welcome to Sample App"
       p_1: "This is the home page for the"
       p_2: "sample application."
     help:
@@ -18,3 +19,18 @@ en:
       title: "Contact"
       p_1: "Contact the Ruby on Rails Tutorial about the sample app at the"
       p_2: "contact page"
+  layouts:
+    header:
+      home: "Home"
+      Help: "Help"
+      login: "Login"
+    footer:
+      pre: "The"
+      sub: "by"
+      about: "About"
+      contact: "Contact"
+      new: "New"
+  users:
+    new:
+      title: "Sign up"
+      p_1: "This will be a signup page for new users"

@@ -1,6 +1,8 @@
-<h1><%= t :app_name %></h1>
-<p>
-  <%= t(".p_1") %>
-  <%= link_to "#{t :tuts}", "http://www.railstutorial.org" %>
-  <%= t(".p_2") %>
-</p>
+<div class="center jumbotron">
+  <h1><%= t(".title") %></h1>
+  <h2><%= t(".p_1") %>
+    <%= link_to "#{t :tuts}", "#" %>
+  <%= t(".p_2") %></h2>
+  <%= link_to "Sign up now", signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+<%= link_to image_tag("rails.png", alt: "Rails Logo"), "#" %>
