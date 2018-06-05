@@ -35,16 +35,12 @@ en:
     footer:
       pre: "The"
       sub: "by"
-      about: "About"
-      contact: "Contact"
       new: "New"
   users:
     new:
       title: "Sign up"
       confirm: "Confirm Password"
       create: "Create my account"
-    create:
-      welcome: "Welcome to Sample App"
   shared:
     error_messages:
       p_1: "The form contains"
@@ -53,3 +49,10 @@ en:
       title: "Log in"
       register: "New user?"
       signup: "Sign up now!"
+  shared:
+    error_messages:
+      p_1: "The form contains"
+  sessions:
+    new:
+      title: "Log in"
+    fail: "Invalid email/password combination"
