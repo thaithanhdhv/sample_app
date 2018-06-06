@@ -55,4 +55,5 @@ en:
   sessions:
     new:
       title: "Log in"
+      remember_me: "Remember me on this computer"
     fail: "Invalid email/password combination"
