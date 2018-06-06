@@ -6,6 +6,8 @@ en:
   name: Name
   email: Email
   password: Password
+  submit: "Save changes"
+  login: "Please log in"
   static_pages:
     home:
       title: "Welcome to Sample App"
@@ -37,10 +39,20 @@ en:
       sub: "by"
       new: "New"
   users:
+    index:
+      title: "All users"
+      delete: "Delete"
+      comfirm: "You sure?"
+      destroy: "User Deleted"
     new:
       title: "Sign up"
       confirm: "Confirm Password"
       create: "Create my account"
+      change: "Change"
+    edit:
+      title: "Edit"
+      update_title: "Update your profile"
+      updated: "Profile updated"
   shared:
     error_messages:
       p_1: "The form contains"
