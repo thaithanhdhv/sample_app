@@ -3,6 +3,9 @@ en:
   sub_title: "Ruby on Rails Tutorial Sample App"
   tuts: "Ruby on Rails Tutorial"
   author: "Michael Hartl"
+  name: Name
+  email: Email
+  password: Password
   static_pages:
     home:
       title: "Welcome to Sample App"
@@ -24,6 +27,11 @@ en:
       home: "Home"
       Help: "Help"
       login: "Login"
+      user: "Users"
+      profile: "Profile"
+      setting: "Settings"
+      logout: "Log out"
+      account: "Account"
     footer:
       pre: "The"
       sub: "by"
@@ -33,4 +41,15 @@ en:
   users:
     new:
       title: "Sign up"
-      p_1: "This will be a signup page for new users"
+      confirm: "Confirm Password"
+      create: "Create my account"
+    create:
+      welcome: "Welcome to Sample App"
+  shared:
+    error_messages:
+      p_1: "The form contains"
+  sessions:
+    new:
+      title: "Log in"
+      register: "New user?"
+      signup: "Sign up now!"
