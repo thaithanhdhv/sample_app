@@ -8,6 +8,7 @@ en:
   password: Password
   submit: "Save changes"
   login: "Please log in"
+  hello: "Hello"
   static_pages:
     home:
       title: "Welcome to Sample App"
@@ -61,11 +62,17 @@ en:
       title: "Log in"
       register: "New user?"
       signup: "Sign up now!"
+      remember_me: "Remember me on this computer"
+    fail: "Invalid email/password combination"
   shared:
     error_messages:
       p_1: "The form contains"
-  sessions:
-    new:
-      title: "Log in"
-      remember_me: "Remember me on this computer"
-    fail: "Invalid email/password combination"
+  user_mailer:
+    actived: "Account activated!"
+    invalid: "Invalid activation link"
+    not_active: "Account not activated. "
+    check_link: "Check your email for the activation link."
+    check_alert: "Please check your email to activate your account."
+    active_link: "Activate"
+    subject: "Account Activation"
+
