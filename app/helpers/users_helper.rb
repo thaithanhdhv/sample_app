@@ -9,4 +9,8 @@ module UsersHelper
   def check_user? user
     current_user.admin? && !current_user?(user)
   end
+
+  def check_user
+    @user ||= current_user
+  end
 end
