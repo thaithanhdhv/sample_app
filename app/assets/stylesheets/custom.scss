@@ -1,18 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
-
- // variale
-$accent-color: #fff;
-$light-gray: #777;
-$foreground-color: #555;
-$hover-color: #222;
-$border-color: #eaeaea;
-
-@mixin box_sizing {
- -moz-box-sizing: border-box;
- -webkit-box-sizing: border-box;
- box-sizing: border-box;
-}
+@import "variable";
 
 /* miscellaneous */
 .debug_dump {
@@ -175,4 +163,53 @@ input {
 .checkbox-login {
   width: auto;
   margin-left: 0 !important;
+}
+
+/* microposts */
+.microposts {
+  list-style: none;
+  padding: 0;
+  li {
+    padding: 10px 0;
+    border-top: 1px solid $border_top_color;
+  }
+  .user {
+    margin-top: 5em;
+    padding-top: 0;
+  }
+  .content {
+    display: block;
+    margin-left: 60px;
+    img {
+      display: block;
+      padding: 5px 0;
+    }
+  }
+  .delete-post{
+    margin-left: 60px;
+  }
+  .timestamp {
+    color: $light-gray;
+    display: block;
+    margin-left: 60px;
+  }
+  .gravatar {
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+}
+
+aside {
+  textarea {
+    height: 100px;
+    margin-bottom: 5px;
+  }
+}
+
+span.picture {
+  margin-top: 10px;
+  input {
+    border: 0;
+  }
 }

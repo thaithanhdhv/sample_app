@@ -3,12 +3,14 @@ en:
   sub_title: "Ruby on Rails Tutorial Sample App"
   tuts: "Ruby on Rails Tutorial"
   author: "Michael Hartl"
+  logo: "Rails Logo"
   name: Name
   email: Email
   password: Password
   submit: "Save changes"
   login: "Please log in"
   hello: "Hello"
+  error: "Error"
   static_pages:
     home:
       title: "Welcome to Sample App"
@@ -90,4 +92,14 @@ en:
     reset_text_3: "If you did not request your password to be reset, please ignore this email
                   and your password will stay as it is."
     notice_valid: "User not valid, please active your account"
-
+  microposts:
+    title: "Micropost"
+    create_sucess: "Micropost created!"
+    deleted: "Micropost deleted"
+    size_notice: "Should be less than 5MB"
+    notice: "Maximum file size is 5MB. Please choose a smaller file."
+    view_profile: "View my profile"
+    posts: "Posts"
+    text_holder: "Compose new micropost..."
+    time_post: "Posted: "
+    deleted_fail: "Micropost delete fail.Please try again"
