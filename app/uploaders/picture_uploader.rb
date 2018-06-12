@@ -1,5 +1,6 @@
 class PictureUploader < CarrierWave::Uploader::Base
   include CarrierWave::MiniMagick
+  permissions 0777
   process resize_to_limit: [400, 400]
   storage :file
 
@@ -10,4 +11,8 @@ class PictureUploader < CarrierWave::Uploader::Base
   def extension_white_list
     %w(jpg jpeg gif png)
   end
+
+  # def default_url(*args)
+  #   "/images/" + [version_name, "rails.png"].compact.join('_')
+  # end
 end
