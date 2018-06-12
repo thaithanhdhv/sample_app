@@ -103,3 +103,9 @@ en:
     text_holder: "Compose new micropost..."
     time_post: "Posted: "
     deleted_fail: "Micropost delete fail.Please try again"
+  relationships:
+    follow_title: "Follow"
+    unfollow_title: "Unfollow"
+    following: "Following"
+    followers: "Followers"
+    notice: "User not found"

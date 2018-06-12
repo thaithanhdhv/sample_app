@@ -10,4 +10,8 @@ class PictureUploader < CarrierWave::Uploader::Base
   def extension_white_list
     %w(jpg jpeg gif png)
   end
+
+  # def default_url(*args)
+  #   "/images/" + [version_name, "rails.png"].compact.join('_')
+  # end
 end
