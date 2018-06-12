@@ -1,0 +1,13 @@
+// Variable
+$accent-color: #fff;
+$light-gray: #777;
+$foreground-color: #555;
+$hover-color: #222;
+$border-color: #eaeaea;
+$border_top_color: #e8e8e8;
+
+@mixin box_sizing {
+ -moz-box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+ box-sizing: border-box;
+}
