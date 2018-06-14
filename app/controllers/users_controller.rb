@@ -14,6 +14,7 @@ class UsersController < ApplicationController
 
   def show
     @microposts = @user.microposts.paginate page: params[:page]
+    @user_relationship = current_user.active_relationships.find_by(followed_id: @user.id)
   end
 
   def create
@@ -42,6 +43,18 @@ class UsersController < ApplicationController
     @user.destroy
     flash[:sucess] = t "users.index.destroy"
     redirect_to users_url
+  end
+
+  def following
+    @title = t "relationships.following"
+    @users = @user.following.paginate page: params[:page]
+    render "show_follow"
+  end
+
+  def followers
+    @title = t "relationships.followers"
+    @users = @user.followers.paginate page: params[:page]
+    render "show_follow"
   end
 
   private

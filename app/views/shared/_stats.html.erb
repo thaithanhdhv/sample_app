@@ -1,0 +1,5 @@
+<% check_user %>
+<div class="stats">
+  <%= link_to "#{@user.following.size} #{t("relationships.following")}", following_user_path(@user), class: "follow-link" %>
+  <%= link_to "#{@user.followers.size} #{t("relationships.followers")}", followers_user_path(@user), class: "follow-link" %>
+</div>
